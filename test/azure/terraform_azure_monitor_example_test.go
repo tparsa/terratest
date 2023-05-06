@@ -9,9 +9,9 @@ package test
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/azure"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/tparsa/terratest/modules/azure"
+	"github.com/tparsa/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
 )
 

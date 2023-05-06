@@ -55,11 +55,11 @@ testing.tRunner.func1(0xc0000c5300)
 	/usr/local/Cellar/go/1.11/libexec/src/testing/testing.go:792 +0x387
 panic(0x1329720, 0x13fd400)
 	/usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go:513 +0x1b9
-github.com/gruntwork-io/terratest/modules/logger/parser.TestIsPanicLine(0xc0000c5300)
-	/Users/yoriy/go/src/github.com/gruntwork-io/terratest/modules/logger/parser/parser_test.go:306 +0x1c4
+github.com/tparsa/terratest/modules/logger/parser.TestIsPanicLine(0xc0000c5300)
+	/Users/yoriy/go/src/github.com/tparsa/terratest/modules/logger/parser/parser_test.go:306 +0x1c4
 testing.tRunner(0xc0000c5300, 0x13bb160)
 	/usr/local/Cellar/go/1.11/libexec/src/testing/testing.go:827 +0xbf
 created by testing.(*T).Run
 	/usr/local/Cellar/go/1.11/libexec/src/testing/testing.go:878 +0x353
 exit status 2
-FAIL	github.com/gruntwork-io/terratest/modules/logger/parser	0.020s
+FAIL	github.com/tparsa/terratest/modules/logger/parser	0.020s

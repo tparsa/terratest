@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite tests="52" failures="4" time="0.020" name="github.com/gruntwork-io/terratest/modules/logger/parser">
+	<testsuite tests="52" failures="4" time="0.020" name="github.com/tparsa/terratest/modules/logger/parser">
 		<properties>
 			<property name="go.version" value="go1.18"></property>
 		</properties>

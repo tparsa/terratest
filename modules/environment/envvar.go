@@ -3,7 +3,7 @@ package environment
 import (
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

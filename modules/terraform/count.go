@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

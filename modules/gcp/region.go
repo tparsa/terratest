@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/collections"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/testing"
 	"google.golang.org/api/compute/v1"
 )
 

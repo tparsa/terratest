@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/testing"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclparse"

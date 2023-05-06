@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/gruntwork-io/go-commons/files"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/testing"
 )
 
 // GetIamCurrentUserName gets the username for the current IAM user.

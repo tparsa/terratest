@@ -10,9 +10,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/retry"
+	"github.com/tparsa/terratest/modules/testing"
 )
 
 // ListJobs will look for Jobs in the given namespace that match the given filters and return them. This will fail the

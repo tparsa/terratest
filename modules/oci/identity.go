@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/oracle/oci-go-sdk/common"
 	"github.com/oracle/oci-go-sdk/identity"
 )

@@ -3,9 +3,9 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/ssh"
+	"github.com/tparsa/terratest/modules/testing"
 )
 
 // Ec2Keypair is an EC2 key pair.

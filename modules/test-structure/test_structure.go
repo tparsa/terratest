@@ -8,11 +8,11 @@ import (
 
 	go_test "testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/opa"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/files"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/opa"
+	"github.com/tparsa/terratest/modules/terraform"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

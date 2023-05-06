@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/random"
 	"github.com/stretchr/testify/require"
 )
 

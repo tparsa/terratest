@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/tparsa/terratest/modules/retry"
 	"google.golang.org/api/compute/v1"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/testing"
 	"golang.org/x/oauth2/google"
 )
 

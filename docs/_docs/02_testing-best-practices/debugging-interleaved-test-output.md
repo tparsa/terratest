@@ -36,7 +36,7 @@ This will:
 - Create a `report.xml` file containing a Junit XML file of the test summary (so it can be integrated in your CI).
 
 The output can be integrated in your CI engine to further enhance the debugging experience. See Terratest's own
-[circleci configuration](https://github.com/gruntwork-io/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
+[circleci configuration](https://github.com/tparsa/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
 provides for each build:
 
 - A test summary view showing you which tests failed:
@@ -51,7 +51,7 @@ provides for each build:
 
 Terratest also ships utility binaries that you can use to improve the debugging experience (see [Debugging interleaved
 test output](#debugging-interleaved-test-output)). The compiled binaries are shipped separately from the library in the
-[Releases page](https://github.com/gruntwork-io/terratest/releases).
+[Releases page](https://github.com/tparsa/terratest/releases).
 
 The following binaries are currently available with `terratest`:
 
@@ -75,7 +75,7 @@ For example to install version 0.13.13 of `terratest_log_parser`:
 ```bash
 # This example assumes a linux 64bit machine
 # Use curl to download the binary
-curl --location --silent --fail --show-error -o terratest_log_parser https://github.com/gruntwork-io/terratest/releases/download/v0.13.13/terratest_log_parser_linux_amd64
+curl --location --silent --fail --show-error -o terratest_log_parser https://github.com/tparsa/terratest/releases/download/v0.13.13/terratest_log_parser_linux_amd64
 # Make the downloaded binary executable
 chmod +x terratest_log_parser
 # Finally, we place the downloaded binary to a place in the PATH
@@ -90,13 +90,13 @@ with `go install`, point `go install` to the repo and path where the main code f
 example, you can install the terratest log parser binary with:
 
 ```
-go install github.com/gruntwork-io/terratest/cmd/terratest_log_parser@latest
+go install github.com/tparsa/terratest/cmd/terratest_log_parser@latest
 ```
 
 Similarly, to install `pick-instance-type`, you can run:
 
 ```
-go install github.com/gruntwork-io/terratest/cmd/pick-instance-type@latest
+go install github.com/tparsa/terratest/cmd/pick-instance-type@latest
 ```
 
 ### gruntwork-installer
@@ -105,5 +105,5 @@ You can also use [the gruntwork-installer utility](https://github.com/gruntwork-
 binaries, which will do the above steps and automatically select the right binary for your platform:
 
 ```bash
-gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/gruntwork-io/terratest' --tag 'v0.13.13'
+gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/tparsa/terratest' --tag 'v0.13.13'
 ```

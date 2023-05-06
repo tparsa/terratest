@@ -16,13 +16,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	tftesting "github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	tftesting "github.com/tparsa/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/helm"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/helm"
+	"github.com/tparsa/terratest/modules/k8s"
+	"github.com/tparsa/terratest/modules/random"
 )
 
 // Example how to redirect helm logs to custom logger

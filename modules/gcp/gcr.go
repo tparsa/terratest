@@ -6,8 +6,8 @@ import (
 	gcrname "github.com/google/go-containerregistry/pkg/name"
 	gcrgoogle "github.com/google/go-containerregistry/pkg/v1/google"
 	gcrremote "github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

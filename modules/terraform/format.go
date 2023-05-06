@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
+	"github.com/tparsa/terratest/modules/collections"
 )
 
 const runAllCmd = "run-all"

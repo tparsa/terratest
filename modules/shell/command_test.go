@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/random"
 )
 
 func TestRunCommandAndGetOutput(t *testing.T) {

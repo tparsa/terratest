@@ -3,9 +3,9 @@ package terraform
 import (
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/ssh"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/jinzhu/copier"
 	"github.com/stretchr/testify/require"
 )

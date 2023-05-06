@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/tparsa/terratest/modules/logger"
+	"github.com/tparsa/terratest/modules/shell"
+	"github.com/tparsa/terratest/modules/testing"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 )
