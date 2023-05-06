@@ -8,8 +8,8 @@ import (
 	// See: https://github.com/kubernetes/client-go/issues/242
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	"github.com/tparsa/terratest/modules/logger"
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // GetKubernetesClientE returns a Kubernetes API client that can be used to make requests.

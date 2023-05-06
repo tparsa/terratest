@@ -8,7 +8,7 @@ Terratest website is built with Jekyll and published on Github Pages from `docs`
 
 ## Download project
 
-Clone or fork Terratest [repository](https://github.com/tparsa/terratest).
+Clone or fork Terratest [repository](https://github.com/gruntwork-io/terratest).
 
 ## Run
 

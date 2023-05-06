@@ -47,7 +47,7 @@ aws.GetRecommendedInstanceType(t, "ap-northeast-2", []string{"t2.micro", "t3.mic
 ## `pick-instance-type`
 
 `pick-instance-type` is a CLI tool that you can download from the [Terratest releases 
-page](https://github.com/tparsa/terratest/releases) (click "Assets" under any release). It takes in an AWS 
+page](https://github.com/gruntwork-io/terratest/releases) (click "Assets" under any release). It takes in an AWS 
 region and a list of EC2 instance types and prints to `stdout` the first instance type in the list that is available in 
 all Availability Zones (AZs) in the given region. If there's no instance available in all AZs, `pick-instance-type`
 exits with an error.

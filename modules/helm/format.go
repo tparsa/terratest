@@ -8,8 +8,8 @@ import (
 	"github.com/gruntwork-io/go-commons/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tparsa/terratest/modules/files"
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // formatSetValuesAsArgs formats the given values as command line args for helm using the given flag (e.g flags of

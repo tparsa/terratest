@@ -7,9 +7,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/tparsa/terratest/modules/logger"
-	"github.com/tparsa/terratest/modules/retry"
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // (Deprecated) See the FetchContentsOfFileFromInstance method for a more powerful solution.

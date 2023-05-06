@@ -6,7 +6,7 @@ excerpt: >-
   Browse Terratest methods and types in GoDoc.
 tags: ["packages"]
 redirect_to:
-  - https://godoc.org/github.com/tparsa/terratest
+  - https://godoc.org/github.com/gruntwork-io/terratest
 target_blank: true
 order: 104
 nav_title: Documentation

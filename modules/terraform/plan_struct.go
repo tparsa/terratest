@@ -3,7 +3,7 @@ package terraform
 import (
 	"encoding/json"
 
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/testing"
 	tfjson "github.com/hashicorp/terraform-json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

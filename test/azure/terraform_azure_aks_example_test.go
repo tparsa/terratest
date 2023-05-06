@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tparsa/terratest/modules/azure"
-	http_helper "github.com/tparsa/terratest/modules/http-helper"
-	"github.com/tparsa/terratest/modules/k8s"
-	"github.com/tparsa/terratest/modules/random"
-	"github.com/tparsa/terratest/modules/terraform"
+	"github.com/gruntwork-io/terratest/modules/azure"
+	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
+	"github.com/gruntwork-io/terratest/modules/k8s"
+	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

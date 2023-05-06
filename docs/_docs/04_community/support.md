@@ -16,7 +16,7 @@ Search our [Knowledge Base](https://github.com/gruntwork-io/knowledge-base/discu
 
 ## Github Issues
 
-Read through [existing issues](https://github.com/tparsa/terratest/issues) or post a new one. Github issues is a good place to:
+Read through [existing issues](https://github.com/gruntwork-io/terratest/issues) or post a new one. Github issues is a good place to:
 
 - report a bug,
 

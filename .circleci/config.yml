@@ -197,7 +197,7 @@ jobs:
 
   # We run the GCP tests in a separate build step using the Docker executor for better isolation and resiliency. Using
   # The Docker executor ensures GCP tests do not erroneously make metadata network calls within CircleCI's private
-  # environment. For more information see: https://github.com/tparsa/terratest/pull/765.
+  # environment. For more information see: https://github.com/gruntwork-io/terratest/pull/765.
   gcp_test:
     <<: *env
     docker:

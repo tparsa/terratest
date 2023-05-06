@@ -300,7 +300,7 @@ func TestFormatSetVarsAfterVarFilesFormatsCorrectly(t *testing.T) {
 
 		// Make sure that -var and -var-file options are in the expected order relative to each other
 		// Note that the order of the different -var and -var-file options may change
-		// See this comment for more info: https://github.com/tparsa/terratest/blob/6fb86056797e3e62ebdd9011ba26605e0976a6f8/modules/terraform/format_test.go#L123-L142
+		// See this comment for more info: https://github.com/gruntwork-io/terratest/blob/6fb86056797e3e62ebdd9011ba26605e0976a6f8/modules/terraform/format_test.go#L123-L142
 		for idx, arg := range result {
 			if arg == "-var-file" || arg == "-var" {
 				assert.Equal(t, testCase.expected[idx], arg)

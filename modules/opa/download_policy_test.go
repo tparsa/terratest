@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tparsa/terratest/modules/files"
-	"github.com/tparsa/terratest/modules/git"
+	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/gruntwork-io/terratest/modules/git"
 )
 
 // Test to make sure the DownloadPolicyE function returns a local path without processing it.
@@ -30,9 +30,9 @@ func TestDownloadPolicyDownloadsRemote(t *testing.T) {
 	t.Parallel()
 
 	curRef := git.GetCurrentGitRef(t)
-	baseDir := fmt.Sprintf("git::https://github.com/tparsa/terratest.git?ref=%s", curRef)
+	baseDir := fmt.Sprintf("git::https://github.com/gruntwork-io/terratest.git?ref=%s", curRef)
 	localPath := "../../examples/terraform-opa-example/policy/enforce_source.rego"
-	remotePath := fmt.Sprintf("git::https://github.com/tparsa/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=%s", curRef)
+	remotePath := fmt.Sprintf("git::https://github.com/gruntwork-io/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=%s", curRef)
 
 	// Make sure we clean up the downloaded file, while simultaneously asserting that the download dir was stored in the
 	// cache.
@@ -64,9 +64,9 @@ func TestDownloadPolicyDownloadsRemote(t *testing.T) {
 func TestDownloadPolicyReusesCachedDir(t *testing.T) {
 	t.Parallel()
 
-	baseDir := "git::https://github.com/tparsa/terratest.git?ref=master"
-	remotePath := "git::https://github.com/tparsa/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=master"
-	remotePathAltSubPath := "git::https://github.com/tparsa/terratest.git//modules/opa/eval.go?ref=master"
+	baseDir := "git::https://github.com/gruntwork-io/terratest.git?ref=master"
+	remotePath := "git::https://github.com/gruntwork-io/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=master"
+	remotePathAltSubPath := "git::https://github.com/gruntwork-io/terratest.git//modules/opa/eval.go?ref=master"
 
 	// Make sure we clean up the downloaded file, while simultaneously asserting that the download dir was stored in the
 	// cache.

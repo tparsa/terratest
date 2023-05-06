@@ -177,4 +177,4 @@ TestGetOrCreateChannelCreatesNewChannel INFO 2018-10-20T13:15:09-07:00 Channel c
 --- PASS: TestGetOrCreateChannelSpawnsLogCollectorOnCreate (1.01s)
 FAIL
 exit status 1
-FAIL	github.com/tparsa/terratest/modules/logger/parser	1.020s
+FAIL	github.com/gruntwork-io/terratest/modules/logger/parser	1.020s

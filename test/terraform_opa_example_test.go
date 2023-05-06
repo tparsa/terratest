@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/tparsa/terratest/modules/opa"
-	"github.com/tparsa/terratest/modules/terraform"
+	"github.com/gruntwork-io/terratest/modules/opa"
+	"github.com/gruntwork-io/terratest/modules/terraform"
 	"github.com/stretchr/testify/require"
 )
 
@@ -58,7 +58,7 @@ func TestOPAEvalTerraformModuleRemotePolicy(t *testing.T) {
 		TerraformDir: "../examples/terraform-opa-example/pass",
 	}
 	opaOpts := &opa.EvalOptions{
-		RulePath: "git::https://github.com/tparsa/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=master",
+		RulePath: "git::https://github.com/gruntwork-io/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=master",
 		FailMode: opa.FailUndefined,
 	}
 	terraform.OPAEval(t, tfOpts, opaOpts, "data.enforce_source.allow")

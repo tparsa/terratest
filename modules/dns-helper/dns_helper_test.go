@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tparsa/terratest/modules/retry"
+	"github.com/gruntwork-io/terratest/modules/retry"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

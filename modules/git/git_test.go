@@ -61,7 +61,7 @@ func TestGitRefChecks(t *testing.T) {
 	tmpdir := t.TempDir()
 	gitWorkDir := filepath.Join(tmpdir, "terratest")
 
-	url := "https://github.com/tparsa/terratest.git"
+	url := "https://github.com/gruntwork-io/terratest.git"
 	err := exec.Command("git", "clone", url, gitWorkDir).Run()
 	require.NoError(t, err)
 

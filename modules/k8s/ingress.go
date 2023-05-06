@@ -10,9 +10,9 @@ import (
 	networkingv1beta1 "k8s.io/api/networking/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/tparsa/terratest/modules/logger"
-	"github.com/tparsa/terratest/modules/retry"
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // ListIngresses will look for Ingress resources in the given namespace that match the given filters and return them.

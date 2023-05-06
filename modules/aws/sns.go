@@ -3,8 +3,8 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
-	"github.com/tparsa/terratest/modules/logger"
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // CreateSnsTopic creates an SNS Topic and return the ARN.

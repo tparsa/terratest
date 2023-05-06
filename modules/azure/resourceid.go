@@ -1,6 +1,6 @@
 package azure
 
-import "github.com/tparsa/terratest/modules/collections"
+import "github.com/gruntwork-io/terratest/modules/collections"
 
 // GetNameFromResourceID gets the Name from an Azure Resource ID.
 func GetNameFromResourceID(resourceID string) string {

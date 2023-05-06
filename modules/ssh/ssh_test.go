@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	grunttest "github.com/tparsa/terratest/modules/testing"
+	grunttest "github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/assert"
 )
 

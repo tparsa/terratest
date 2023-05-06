@@ -3,7 +3,7 @@ package k8s
 import (
 	"strings"
 
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/testing"
 	corev1 "k8s.io/api/core/v1"
 )
 

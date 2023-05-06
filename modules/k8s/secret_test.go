@@ -17,7 +17,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tparsa/terratest/modules/random"
+	"github.com/gruntwork-io/terratest/modules/random"
 )
 
 func TestGetSecretEReturnsErrorForNonExistantSecret(t *testing.T) {

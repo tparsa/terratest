@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tparsa/terratest/modules/gcp"
-	"github.com/tparsa/terratest/modules/retry"
-	"github.com/tparsa/terratest/modules/terraform"
-	test_structure "github.com/tparsa/terratest/modules/test-structure"
+	"github.com/gruntwork-io/terratest/modules/gcp"
+	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/gruntwork-io/terratest/modules/terraform"
+	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
 )
 
 func TestTerraformGcpInstanceGroupExample(t *testing.T) {

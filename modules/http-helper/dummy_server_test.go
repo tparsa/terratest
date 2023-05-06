@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tparsa/terratest/modules/random"
+	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 )
 

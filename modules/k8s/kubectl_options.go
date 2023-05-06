@@ -1,7 +1,7 @@
 package k8s
 
 import (
-	"github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // KubectlOptions represents common options necessary to specify for all Kubectl calls

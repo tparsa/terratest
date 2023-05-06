@@ -3,8 +3,8 @@ package terraform
 import (
 	"testing"
 
-	"github.com/tparsa/terratest/modules/files"
-	ttesting "github.com/tparsa/terratest/modules/testing"
+	"github.com/gruntwork-io/terratest/modules/files"
+	ttesting "github.com/gruntwork-io/terratest/modules/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
