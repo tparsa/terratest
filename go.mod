@@ -1,4 +1,4 @@
-module github.com/tparsa/terratest
+module github.com/gruntwork-io/terratest
 
 go 1.18
 
