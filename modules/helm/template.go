@@ -38,8 +38,10 @@ func RenderTemplateE(t testing.TestingT, options *Options, chartDir string, rele
 	}
 
 	// check chart dependencies
-	if _, err := RunHelmCommandAndGetOutputE(t, options, "dependency", "build", chartDir); err != nil {
-		return "", errors.WithStackTrace(err)
+	if isLocalChart {
+		if _, err := RunHelmCommandAndGetOutputE(t, options, "dependency", "build", chartDir); err != nil {
+			return "", errors.WithStackTrace(err)
+		}
 	}
 
 	// Now construct the args
