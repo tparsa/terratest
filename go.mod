@@ -13,7 +13,6 @@ require (
 	github.com/aws/aws-lambda-go v1.13.3
 	github.com/aws/aws-sdk-go v1.44.122
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
-	github.com/elazarl/goproxy v0.0.0-20190911111923-ecfe977594f1 // indirect
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
@@ -50,6 +49,7 @@ require (
 
 require (
 	cloud.google.com/go/cloudbuild v1.6.0
+	github.com/gruntwork-io/terratest v0.0.0-00010101000000-000000000000
 	github.com/slack-go/slack v0.10.3
 	gotest.tools/v3 v3.0.3
 )
@@ -125,4 +125,4 @@ require (
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
-replace github.com/gruntwork-io/terratest => github.com/tparsa/terratest master
+replace github.com/gruntwork-io/terratest => github.com/tparsa/terratest v0.41.25-0.20230506165720-0d445d1a41bd

@@ -82,6 +82,27 @@ func NewDeploymentNotAvailableError(deploy *appsv1.Deployment) DeploymentNotAvai
 	return DeploymentNotAvailable{deploy}
 }
 
+// StatefulSetNotAvailable is returned when a Kubernetes statefulset is not ye available to accept traffic.
+type StatefulSetNotAvailable struct {
+	statefulset *appsv1.StatefulSet
+}
+
+// Error is a simple function to return a formatted error message as a string
+func (err StatefulSetNotAvailable) Error() string {
+	return fmt.Sprintf(
+		"Statefulset %s is not available, expected replicas: %d, actual replicas: %d, ready replicas: %d",
+		err.statefulset.Name,
+		*err.statefulset.Spec.Replicas,
+		err.statefulset.Status.Replicas,
+		err.statefulset.Status.ReadyReplicas,
+	)
+}
+
+// NewStatefulSetNotAvailableError returns a StatefulSetNotAvailable struct when Kubernetes deems a statefulset is not available
+func NewStatefulSetNotAvailableError(statefulset *appsv1.StatefulSet) StatefulSetNotAvailable {
+	return StatefulSetNotAvailable{statefulset}
+}
+
 // PodNotAvailable is returned when a Kubernetes service is not yet available to accept traffic.
 type PodNotAvailable struct {
 	pod *corev1.Pod
